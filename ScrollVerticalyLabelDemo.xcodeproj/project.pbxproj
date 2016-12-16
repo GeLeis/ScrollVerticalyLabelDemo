@@ -16,6 +16,7 @@
 		0E1E19211E03813000C5A40A /* ScrollVerticalyLabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1E19201E03813000C5A40A /* ScrollVerticalyLabelDemoTests.m */; };
 		0E1E192C1E03813000C5A40A /* ScrollVerticalyLabelDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1E192B1E03813000C5A40A /* ScrollVerticalyLabelDemoUITests.m */; };
 		0E1E193C1E03817900C5A40A /* ScrollVerticalyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1E193B1E03817900C5A40A /* ScrollVerticalyLabel.m */; };
+		0E5D4A421E03C2250094FDB6 /* scroll.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0E5D4A411E03C2250094FDB6 /* scroll.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		0E1E192D1E03813000C5A40A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E1E193A1E03817900C5A40A /* ScrollVerticalyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollVerticalyLabel.h; sourceTree = "<group>"; };
 		0E1E193B1E03817900C5A40A /* ScrollVerticalyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollVerticalyLabel.m; sourceTree = "<group>"; };
+		0E5D4A411E03C2250094FDB6 /* scroll.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = scroll.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				0E1E19121E03813000C5A40A /* Assets.xcassets */,
 				0E1E19141E03813000C5A40A /* LaunchScreen.storyboard */,
 				0E1E19171E03813000C5A40A /* Info.plist */,
+				0E5D4A411E03C2250094FDB6 /* scroll.gif */,
 				0E1E19061E03813000C5A40A /* Supporting Files */,
 			);
 			path = ScrollVerticalyLabelDemo;
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E1E19161E03813000C5A40A /* LaunchScreen.storyboard in Resources */,
+				0E5D4A421E03C2250094FDB6 /* scroll.gif in Resources */,
 				0E1E19131E03813000C5A40A /* Assets.xcassets in Resources */,
 				0E1E19111E03813000C5A40A /* Main.storyboard in Resources */,
 			);
@@ -528,6 +532,7 @@
 				0E1E19321E03813000C5A40A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E1E19331E03813000C5A40A /* Build configuration list for PBXNativeTarget "ScrollVerticalyLabelDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +541,7 @@
 				0E1E19351E03813000C5A40A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E1E19361E03813000C5A40A /* Build configuration list for PBXNativeTarget "ScrollVerticalyLabelDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +550,7 @@
 				0E1E19381E03813000C5A40A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
